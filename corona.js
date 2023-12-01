@@ -6,7 +6,7 @@ request('https://www.worldometers.info/coronavirus', cb);
 
 function cb(error, response, html) {
     if (error) {
-        console.error('error:', error); // Print the error if one occurred
+        console.error('error:', error); 
     } else {
         handlehtml(html);
     }
